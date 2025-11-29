@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+import Homework2811.Student;
+import Homework2811.Square;
+import Homework2811.Compare;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -87,26 +89,26 @@ public class Main {
 //        System.out.print(Arrays.toString(calc.evenNums(n)));
 
 
-        // ===================================== Homework 21.11 =======================================
-//        Square square = new Square();
-//        System.out.print("Enter number: ");
-//        int num = scanner.nextInt();
-//
-//        System.out.print(square.squareCalc(num));
+        // ===================================== Homework 28.11 =======================================
+        Square square = new Square();
+        System.out.print("Enter number: ");
+        int num = scanner.nextInt();
+
+        System.out.print(square.squareCalc(num));
 
 
-//        Student student1 = new Student();
-//        student1.name = "Zahra";
-//        student1.printName();
+        Student student1 = new Student();
+        student1.name = "Zahra";
+        student1.printName();
 
 
-//        Compare compare = new Compare();
-//        System.out.print("Enter first number: ");
-//        int num1 = scanner.nextInt();
-//        System.out.print("Enter second number: ");
-//        int num2 = scanner.nextInt();
-//
-//        System.out.print(compare.compareDigits(num1, num2));
+        Compare compare = new Compare();
+        System.out.print("Enter first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int num2 = scanner.nextInt();
+
+        System.out.print(compare.compareDigits(num1, num2));
 
     }
 }
