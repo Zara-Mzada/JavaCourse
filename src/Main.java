@@ -1,7 +1,8 @@
+import Homework0112.ConcatArray;
+
+import java.util.Arrays;
 import java.util.Scanner;
-import Homework2811.Student;
-import Homework2811.Square;
-import Homework2811.Compare;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -90,25 +91,85 @@ public class Main {
 
 
         // ===================================== Homework 28.11 =======================================
-        Square square = new Square();
-        System.out.print("Enter number: ");
-        int num = scanner.nextInt();
+//        Square square = new Square();
+//        System.out.print("Enter number: ");
+//        int num = scanner.nextInt();
+//
+//        System.out.print(square.squareCalc(num));
+//
+//
+//        Student student1 = new Student();
+//        student1.name = "Zahra";
+//        student1.printName();
+//
+//
+//        Compare compare = new Compare();
+//        System.out.print("Enter first number: ");
+//        int num1 = scanner.nextInt();
+//        System.out.print("Enter second number: ");
+//        int num2 = scanner.nextInt();
+//
+//        System.out.print(compare.compareDigits(num1, num2));
 
-        System.out.print(square.squareCalc(num));
+        // ===================================== Lesson 7 =======================================
+//        System.out.print("Enter number: ");
+//        int number = scanner.nextInt();
+//
+//        SumOfDigit sum = new SumOfDigit();
+//
+//        System.out.println(sum.SumDigit2(number));
+//        sum.SumDigit(number);
+//
+//
+//        // Polyndrome
+//        Polyndrome poly1 = new Polyndrome();
+//
+//        System.out.print("Enter word: ");
+//        String word = scanner.next();
+//
+//        System.out.print(poly1.PolyndromeWord(word));
+
+        // 2class animals, sound, mainde animal cagiranda sound
+
+//        Animal dog1 = new Dog();
+//        Animal cat1 = new Cat();
+//
+//        dog1.soundOfAnimal();
+//        cat1.soundOfAnimal();
+
+        // GPA
+
+//        GeneralPointAverage gpa1 = new GeneralPointAverage();
+//        System.out.print(gpa1.gpaCalc(83, 96, 89));
 
 
-        Student student1 = new Student();
-        student1.name = "Zahra";
-        student1.printName();
+
+//        CountOfAlphabit c1 = new CountOfAlphabit();
+//
+//        c1.counter("salam");
+
+//        SimpleDigit prime1 = new SimpleDigit();
+//        int num = scanner.nextInt();
+//
+//        if(prime1.prime(num)){
+//            System.out.print("Number is prime");
+//        }
+//        else{
+//            System.out.print("Number is not prime");
+//        }
 
 
-        Compare compare = new Compare();
-        System.out.print("Enter first number: ");
-        int num1 = scanner.nextInt();
-        System.out.print("Enter second number: ");
-        int num2 = scanner.nextInt();
+//        Human h1 = new Human("Zahra");
+//        h1.sayHi();
+//        h1.sayBye();
 
-        System.out.print(compare.compareDigits(num1, num2));
 
-    }
+//        ===================================== Homework 01.12 ==========================================
+
+        int[] arr1 = {2, 4, 5, 6, 7};
+        int[] arr2 = {3, 4, 6, 8, 9};
+        ConcatArray merge1 = new ConcatArray(arr1, arr2);
+
+        System.out.print(Arrays.toString(merge1.mergeArrays()));
+}
 }
