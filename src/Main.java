@@ -1,6 +1,3 @@
-import Homework0112.ConcatArray;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -166,10 +163,10 @@ public class Main {
 
 //        ===================================== Homework 01.12 ==========================================
 
-        int[] arr1 = {2, 4, 5, 6, 7};
-        int[] arr2 = {3, 4, 6, 8, 9};
-        ConcatArray merge1 = new ConcatArray(arr1, arr2);
-
-        System.out.print(Arrays.toString(merge1.mergeArrays()));
+//        int[] arr1 = {2, 4, 5, 6, 7};
+//        int[] arr2 = {3, 4, 6, 8, 9};
+//        ConcatArray merge1 = new ConcatArray(arr1, arr2);
+//
+//        System.out.print(Arrays.toString(merge1.mergeArrays()));
 }
 }

@@ -1,5 +1,7 @@
 package Homework0112;
 
+import java.util.Arrays;
+
 public class ConcatArray {
 
     public int[] array1;
@@ -49,5 +51,13 @@ public class ConcatArray {
         }
 
         return result;
+
+    }
+    public static void main(String[] args){
+        int[] arr1 = {2, 4, 5, 6, 7};
+        int[] arr2 = {3, 4, 6, 8, 9};
+        ConcatArray merge1 = new ConcatArray(arr1, arr2);
+
+        System.out.print(Arrays.toString(merge1.mergeArrays()));
     }
 }
