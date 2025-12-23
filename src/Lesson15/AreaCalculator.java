@@ -1,0 +1,15 @@
+package Lesson15;
+
+import java.util.List;
+
+public class AreaCalculator {
+
+    public double totalArea(List<Shape> shapes){
+        double sum = 0;
+
+        for(Shape shape : shapes){
+            sum+=shape.area();
+        }
+        return sum;
+    }
+}

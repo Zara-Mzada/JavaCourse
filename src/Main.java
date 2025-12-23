@@ -1,10 +1,12 @@
-import Homework0812.*;
+
+import Lesson12.Calculator;
 
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
     public static void main (String arg[]) {
         Scanner scanner = new Scanner(System.in);
 //        GiveName firstName = new GiveName();
@@ -586,65 +588,239 @@ public class Main {
 
 // ========================================= Homework 08.12 =============================================
 
-        Device device = new Device();
-        device.start();
+//        Device device = new Device();
+//        device.start();
+//
+//        Device device1 = new Phone();
+//        device1.start();
+//
+//        Device device2 = new Laptop();
+//        device2.start();
+//
+//
+//
+//
+//        Transport transport = new Transport();
+//        transport.calculateTime(1000);
+//
+//        Transport bus = new Bus();
+//        bus.calculateTime(2000);
+//
+//        Transport train = new Train();
+//        train.calculateTime(2000);
+//
+//        Transport bike = new Bike();
+//        bike.calculateTime(2000);
+//
+//
+//
+//
+//        FileReaderBase file = new FileReaderBase();
+//        file.readFile();
+//
+//        FileReaderBase file2 = new ImageFileReader();
+//        file2.readFile();
+//
+//        FileReaderBase file3 = new TextFileReader();
+//        file3.readFile();
+//
+//
+//
+//
+//        User user = new User();
+//        user.getPermissions();
+//
+//        User admin = new AdminUser();
+//        admin.getPermissions();
+//
+//        User guest = new GuestUser();
+//        guest.getPermissions();
+//
+//
+//        Operation operation = new Operation();
+//        operation.calculate(3,4);
+//
+//        Operation add = new AddOperation();
+//        add.calculate(10, 23);
+//
+//        Operation multiply = new MultiplyOperation();
+//        multiply.calculate(4,7);
+//
+//        Operation subtract = new SubtractOperation();
+//        subtract.calculate(23, 17);
 
-        Device device1 = new Phone();
-        device1.start();
-
-        Device device2 = new Laptop();
-        device2.start();
 
 
+        // ========================================= Lesson 11  =============================================
 
-
-        Transport transport = new Transport();
-        transport.calculateTime(1000);
-
-        Transport bus = new Bus();
-        bus.calculateTime(2000);
-
-        Transport train = new Train();
-        train.calculateTime(2000);
-
-        Transport bike = new Bike();
-        bike.calculateTime(2000);
+//        SmartDevice[] smartDevice = {
+//                new SmartDevice("Toshiba", 25),
+//                new SmartLight("Sonic", 46, 74),
+//                new SmartHeater("Panasonic", 26, 36.7)
+//        };
+//
+//        for(int i = 0; i < smartDevice.length; i++){
+//            System.out.println(smartDevice[i].name + " daily cost " + smartDevice[i].calculateDailyCost());
+//        }
 
 
 
 
-        FileReaderBase file = new FileReaderBase();
-        file.readFile();
-
-        FileReaderBase file2 = new ImageFileReader();
-        file2.readFile();
-
-        FileReaderBase file3 = new TextFileReader();
-        file3.readFile();
-
-
-
-
-        User user = new User();
-        user.getPermissions();
-
-        User admin = new AdminUser();
-        admin.getPermissions();
-
-        User guest = new GuestUser();
-        guest.getPermissions();
+//        System.out.print("Choose subscription type (b/p/f): ");
+//        String subs = scanner.next();
+//
+//        if(subs.equals("b")){
+//            Subscription basic = new BasicSubscription("amina23", 37);
+//            basic.finalPrice();
+//        }
+//        else if(subs.equals("p")){
+//            Subscription premium = new PremiumSubscription("simon353", 45, 3);
+//            premium.finalPrice();
+//        }
+//        else if(subs.equals("f")){
+//            Subscription family = new FamilySubscription("aliyevs", 100, 4);
+//            family.finalPrice();
+//        }
 
 
-        Operation operation = new Operation();
-        operation.calculate(3,4);
 
-        Operation add = new AddOperation();
-        add.calculate(10, 23);
+//        Meal[] meals = {
+//                new Burger("Big Mac", 20.50, true),
+//                new Pasta("Fettuchin", 18, "red"),
+//                new Pizza("Sezar", 6, "medium"),
+//        };
+//
+//        for(int i = 0; i < meals.length; i++){
+//            System.out.println(meals[i].name + " final price " + meals[i].finalPrice());
+//        }
 
-        Operation multiply = new MultiplyOperation();
-        multiply.calculate(4,7);
 
-        Operation subtract = new SubtractOperation();
-        subtract.calculate(23, 17);
+//        Characterr[] characterrs = {
+//                new Warrior("Tsu", 20.50, 30),
+//                new Mage("Toroko", 40, 63),
+//                new Archer("Sezar", 25, 18),
+//        };
+//
+//        for(int i = 0; i < characterrs.length; i++){
+//            System.out.println(characterrs[i].name + " total damage: " + characterrs[i].totalDamage());
+//        }
+
+
+//        System.out.print("Enter pet type (dog/cat): ");
+//        String type = scanner.next();
+//
+//        if(type.equals("dog")){
+//            System.out.print("Enter dog name: ");
+//            String name = scanner.next();
+//            System.out.print("Enter dog age: ");
+//            int age = scanner.nextInt();
+//            System.out.print("Enter dog breed: ");
+//            String breed = scanner.next();
+//
+//            Dog dog = new Dog(name, age, breed);
+//            System.out.println(dog.adoptionFee());
+//        }
+//        else{
+//            System.out.print("Enter cat name: ");
+//            String name = scanner.next();
+//            System.out.print("Enter cat age: ");
+//            int age = scanner.nextInt();
+//            System.out.print("Enter cat color: ");
+//            String color = scanner.next();
+//
+//            Cat cat = new Cat(name, age, color);
+//            System.out.println(cat.adoptionFee());
+//        }
+
+
+//        Product[] products = {
+//                new Clothes("Shirt", 38, "winter"),
+//                new Electronics("Washing machine", 1299, 5),
+//                new Product("Milk", 2.56)
+//        };
+//
+//        for(int i = 0; i < products.length; i++){
+//            System.out.println(products[i].name + " final price: " + products[i].finalPrice());
+//        }
+
+//        System.out.print("Enter high school student data"+ "\n"+
+//                "Student name:");
+//        String name = scanner.next();
+//
+//        System.out.println("How many marks do you have? :");
+//        int countMark = scanner.nextInt();
+//
+//        System.out.println("Enter your marks: ");
+//        int[] marks = new int[countMark];
+//
+//        for(int i = 0; i < marks.length; i++){
+//            int mark = scanner.nextInt();
+//            marks[i] = mark;
+//        }
+//
+//        System.out.print("Enter student's extra credit: ");
+//        int credit = scanner.nextInt();
+//
+//        Student highStudent = new HighSchoolStudent(name, marks, credit);
+//        System.out.println(highStudent.average());
+
+
+
+//        System.out.print("Enter college student data"+ "\n"+
+//                "Student name:");
+//        String collegeName = scanner.next();
+//
+//        System.out.println("How many marks do you have? :");
+//        int collegeCountMark = scanner.nextInt();
+//
+//        System.out.println("Enter your marks: ");
+//        int[] collegeMarks = new int[collegeCountMark];
+//
+//        for(int i = 0; i < collegeMarks.length; i++){
+//            int mark = scanner.nextInt();
+//            collegeMarks[i] = mark;
+//        }
+//
+//        System.out.print("Enter student's project score: ");
+//        int score = scanner.nextInt();
+//
+//        Student collegeStudent = new CollegeStudent(collegeName, collegeMarks, score);
+//        System.out.println(collegeStudent.average());
+
+//
+//        Operation op = new Operation();
+//        System.out.println("Enter first: ");
+//        int num1 = scanner.nextInt();
+//
+//        System.out.println("Enter second: ");
+//        int num2 = scanner.nextInt();
+//
+//        op.add(num1, num2);
+
+
+//        Operation op = new Operation();
+//
+//        op.setAdd("Plus");
+//        System.out.println(op.getAdd());
+
+
+//        FirstClass f = new FirstClass();
+//        f.callFirst();
+//
+//        SecondClass s = new SecondClass();
+
+//        YourClass y1 = new YourClass();
+//        MyClass m1 = new MyClass();
+//
+//        System.out.println(m1.something);
+//        System.out.println(y1.something);
+
+
+
+
+
+
+
+
     }
 }
