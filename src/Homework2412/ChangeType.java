@@ -1,6 +1,6 @@
 package Homework2412;
 
-public class ChangeType {
+public class ChangeType<E, R> {
 
     public static  <E, R> R changeType(E text){
         if(text instanceof String){
