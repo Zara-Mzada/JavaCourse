@@ -15,6 +15,7 @@ public class ChangeType<E, R> {
     }
 
     public static void main(String[] args) {
+
         System.out.println(ChangeType.<String, Integer>changeType("Hello world!"));
 
         System.out.println(ChangeType.<Double, Integer>changeType(34.67));
