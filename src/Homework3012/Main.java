@@ -5,7 +5,9 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 //        todo   Task 1
-
+        System.out.println("=========================================================================");
+        System.out.println("                              Task   1                                  ");
+        System.out.println("=========================================================================");
         Queue<Integer> pqueue = new PriorityQueue<>();
 
         pqueue.add(10);
@@ -14,6 +16,9 @@ public class Main {
 
         System.out.println(pqueue.poll());
         System.out.println(pqueue);
+        System.out.println("=========================================================================");
+        System.out.println("                               Task   2                                  ");
+        System.out.println("=========================================================================");
 
 //        todo Task 2
 
@@ -27,11 +32,15 @@ public class Main {
         arrayDequeue.add(60);
         arrayDequeue.add(70);
 
+        System.out.println(arrayDequeue);
         while(!arrayDequeue.isEmpty()){
             arrayDequeue.poll();
         }
 
         System.out.println("Queue is empty ->" + arrayDequeue);
+        System.out.println("=========================================================================");
+        System.out.println("                              Task   3                                   ");
+        System.out.println("=========================================================================");
 
 //        todo Task 3
 
@@ -44,6 +53,9 @@ public class Main {
         while(!customer.isEmpty()){
             System.out.println(customer.poll() + " is done!");
         }
+        System.out.println("=========================================================================");
+        System.out.println("                              Task   4                                   ");
+        System.out.println("=========================================================================");
 
 //        todo Task 4
 
@@ -54,6 +66,9 @@ public class Main {
         cities.add("Sumgayit");
 
         System.out.println(cities.contains("Ganja"));
+        System.out.println("=========================================================================");
+        System.out.println("                              Task   5                                  ");
+        System.out.println("=========================================================================");
 
 
 //        todo Task 5
@@ -63,5 +78,6 @@ public class Main {
         Set<Integer> newNumbers = new HashSet<>(numbers);
 
         System.out.println(newNumbers);
+
     }
 }
