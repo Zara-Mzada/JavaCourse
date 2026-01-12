@@ -57,13 +57,13 @@ public class Main {
         List<Map<Employee, Double>> marketingEmployees = new ArrayList<>();
 
 
-//        List<Map<Employee, Double>> itEmployees = employees.entrySet()
+//        List<Map<Employee, Double>> itEmployees1 = employees.entrySet()
 //                .stream()
 //                .filter(n -> n.getKey().equals(it))
 //                .map(Map.Entry::getValue)
 //                .toList();
 //
-//        System.out.println(itEmployees);
+//        System.out.println(itEmployees1);
 
         employees.entrySet()
                 .stream()
@@ -118,7 +118,7 @@ public class Main {
 
         System.out.println("Total salary of marketing department: " + totalSalaryOfMarketing);
 
-        // todo Less than 1000 salary
+        // todo Remove less than 1000 salary
 
         employees.values().forEach(n -> n.entrySet()
                 .removeIf(entry -> entry.getValue() < 1000));

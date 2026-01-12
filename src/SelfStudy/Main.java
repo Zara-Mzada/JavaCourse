@@ -91,13 +91,5 @@ public class Main {
 //                .get(1));
 
 
-        // Map<depaertament, map<isci, maas>> departamentde nece nefer isleyir, departamentde isleyen iscilerin maaslari cemi,
-        //1000den asagi maas alanlari silin
-
-        //Class Human ,fields -> name, country
-        //List inside human object
-        //hansi olkeden ne qeder adam var
-        
-
     }
 }
