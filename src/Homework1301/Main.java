@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter operation: ");
 
-        String operation = sc.nextLine();
+        String operation = sc.nextLine().trim();
 
         String[] operNew = operation.split(" ");
 
